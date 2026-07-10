@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    background-color: white;
+    border: 2px solid black;
+    width:100%;
+    height:60px;
+
+
+}
+
+ul{
+    display: flex;
+    
+}
+
+.ulcontainer ul li{
+    list-style:none;
+    padding: 10px;
+    
+}
+
+.ulcontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightbutton{
+    height:100px;
+    width: 100px;
+    position: relative;
+    left:1100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.rightbutton button{
+    background-color: blue;
+    color:white;
+    padding: 50px;
+}
